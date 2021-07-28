@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Second link">
+    <meta name="author" content="Ilona Ch">
+    <title>Galary</title>
+    <link rel="icon" href=".img/web.jpg">
+    <style>
+        body {
+            background-image:url(".img/background.jpg");
+            margin: 10px;
+            padding: 100px 0;
+        }
+        .mainCont {
+            width: 800px;
+            min-height: 800px;
+            border: 10px solid #fff;
+            margin: 0 auto;
+            background: #fff;
+        }
+        .header {
+           display: flex;    
+        }
+        .dev {
+            color: #fff;
+            display: flex;
+            width: 75%;
+            height: 150px;
+            border: 2px solid grey;
+            justify-content: center;
+            background-image: url(".img/devName.jpg");
+            margin-right: 10px;
+        }
+        .devPic {
+            display: flex;
+            width: 25%;
+            height: 150px;
+            border: 2px solid grey;
+            justify-content: center;
+            background-image: url(".img/devName.jpg")
+        }
+        .navigation ul {
+            display: flex;
+            background: rgb(233, 233, 233);
+            margin: 5px 0;
+        }
+        .navigation li {
+            margin-right: 30px;
+        }
+        .navigation li a {
+            padding: 20px;
+            display: flex;
+            text-decoration: none;
+            color:grey;
+            font-weight: bold;
+            border-right: 1px solid rgb(204, 204, 204) ;
+        }
+        .navigation li a:hover {
+            background: rgb(196, 196, 196);
+            margin-right: 30px;
+        }
+        .galary {
+            margin: 20px 20px 10px 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainCont">
+        <div class="header">
+            <div class="dev">
+                <h1>Frontend developer</h1>
+            </div>
+            <div class="devPic"></div>          
+        </div>
+        <div class="navigation">
+            <ul>
+                <li> <a class=".link" href="index.html"> Main information</a> </li>
+                <li> <a class=".link" href="index2.html"> Contacts</a> </li>
+                <li> <a class=".link" href="index3.html"> Portfolio</a> </li>
+            </ul>
+        </div>
+    <div class="galary">
+        <span>
+            <a><img src=".img/image4.jpg"></a>
+            <a><img src=".img/image5.jpg"></a>
+            <a><img src=".img/image6.jpg"></a>
+            <a><img src=".img/image1.jpg"></a>
+            <a><img src=".img/image3.jpg"></a>
+            <a><img src=".img/image2.jpg"></a>
+            <a><img src=".img/image7.jpg"></a>
+            <a><img src=".img/image8.jpg"></a>
+        </span>
+    </div>
+</body>
+</html>
